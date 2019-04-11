@@ -25,7 +25,7 @@
         }
     },
     "variables": {
-        "baseUri":"https://github.com/heatherlynch/introduction-to-nested-templates.git",
+        "baseUri":"https://github.com/heatherlynch/introduction-to-nested-templates/blob/master",
         "ADInstallScript":"[concat(variables('baseUri'),'/','script-extensions/deploy-ad.ps1')]",
         "ADJoinScript":"[concat(variables('baseUri'),'/','script-extensions/domain-join.ps1')]"
     },
